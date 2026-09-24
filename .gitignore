@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+.next-build/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Environment files and private keys
+.env*
+!.env.example
+*.pem
+
+# Deployment and local tooling
+.vercel/
+.chrome-qa/
+.qa-*/
+
+# Local QA captures
+*-qa.png
+mobile-*.png
+
+# Logs and OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
